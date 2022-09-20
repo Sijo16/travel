@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid ">
+      <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-3 ms-5 text-center" href="#"><img  class="ms-5" src="./travelpic/t1.png" alt="" width="50px" height="50px"> &emsp;Explorer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Traveller</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end  pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Destination
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Asia</a></li>
+                    <li><a class="dropdown-item" href="#">Europe</a></li>
+                    <li><a class="dropdown-item" href="#">Egypt</a></li>
+                    <li><a class="dropdown-item" href="#">America</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Beaches</a></li>
+                    <li><a class="dropdown-item" href="#">WaterFalls</a></li>
+                    <li><a class="dropdown-item" href="#">Pyramids</a></li>
+                    <li><a class="dropdown-item" href="#">Mountains</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid b2">
+      <h1 class="text-center">EXPLORE . DREAM . DISCOVER</h1>
+      <div class="container text-center">
+      <h2>This is a world travel blog featuring beautiful destinations, new experiences, and hidden places around the world.</h2>
+      <button type="button" class="btn btn-outline-light  w-25 mt-5 border border-2 border-light">Start Exploring</button>
+    </div>
+  </div>
+
+  <div class="container-fluid  mt-5">
+    <div class="row text-center">
+      <h3 id="destination"> Destinations</h3>
+      <div class="col-3 bg-light b3"><img class="w-100" src="./travelpic/am1.jpg" alt=""  height="200px">America</div>
+      <div class="col-3 bg-light b3"><img class="w-100" src="./travelpic/eur1.jpg" alt=""  height="200px">Europe</div>
+      <div class="col-3 bg-light b3"><img class="w-100" src="./travelpic/eyp1.jpg" alt=""  height="200px">Egypt</div>
+      <div class="col-3 bg-light b3"><img class="w-100" src="./travelpic/cb1.jpg" alt=""  height="200px">China</div>
+      
+    </div>
+  </div>
+  
+  <div class="container-fluid b5 border border-2 mt-5">
+    <div class="container text-center">
+      <h1 class="container mt-5  text-light">Featured</h1>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-light mt-5  border border-2 " data-bs-toggle="modal" data-bs-target="#exampleModal1">
+  America
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">America</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="w-100" src="./travelpic/s1.jpg" alt="">
+        <h2>America</h2>
+        <p>During an after-dinner discussion, French politician and abolitionist Edouard de Laboulaye proposed that his country should gift a statue to the United States for the centennial celebration of the Declaration of Independence. The recent Union victory in the Civil War reaffirmed Laboulaye of the country’s ideals of freedom and democracy. He felt that showing public support for the U.S. would also strengthen the fight for democracy in France. </p>
+      <p>With the statue finally complete, an official unveiling and dedication ceremony takes place on Bedloe’s Island. The attendees are almost exclusively men. In Manhattan, the city holds its first ever Ticker-Tape Parade in honor of the dedication. Over one million people attend. Unfortunately, due to fog and rain, the statue isn’t even visible from the mainland. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container text-center">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-light mt-5  border border-2 " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+Europe
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel2">Europe</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <img class="w-100" src="./travelpic/ef.jpg" alt="">
+    <h2>Europe</h2>
+    <p>The Eiffel Tower in Paris, France, is among the most famous landmarks in the world. Known as the Tour Eiffel in French, the tower was designed and built by the French engineer Gustave Eiffel in 1889.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container text-center">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-light mt-5  border border-2 " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+China
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel3">China</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <img class="w-100" src="./travelpic/c1.jpg" alt="">
+    <h2>China</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure, adipisci error possimus quae magnam consequuntur, quaerat sint exercitationem nesciunt explicabo enim eos alias quam commodi. Doloribus sapiente voluptates enim.</p>  
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container text-center">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-light mt-5  border border-2 " data-bs-toggle="modal" data-bs-target="#exampleModal4">
+Egypt
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel4">Egypt</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <img class="w-100" src="./travelpic/eyp1.jpg" alt="">
+    <h2>Egypt</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quia fugit beatae sunt natus, exercitationem quasi, asperiores sit, delectus nemo ab qui! Distinctio veritatis quia cumque commodi odio doloribus eius?</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid w-100 mt-5">
+  <footer class="container-fluid text-center text-white" style="background-color: #caced1;">
+    <!-- Grid container -->
+    <div class="container x">
+      <!-- Section: Images -->
+      <section class="">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Images -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+</body>
+</html>
